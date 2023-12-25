@@ -1,0 +1,43 @@
+.title {
+    font-weight: 700;
+}
+
+.paragraph {
+    font-weight: 500;
+}
+
+.link {
+    font-weight: 400;
+}
+
+.button {
+    font-weight: 400;
+}
+
+.list {
+    font-weight: 300;
+}
+
+.image {
+    /* width: 100%; */
+}
+
+.div-element {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 9px;
+    border: 1px solid #000;
+    background-color: #eee;
+    overflow: auto;
+}
+
+.span-element {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 9px;
+    border: 1px solid #000;
+    background-color: #ddd;
+    overflow: auto;
+}

@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+    background: url("../../assets/cell-96-160.svg");
+}
+
+*:not(html),
+::after,
+::before {
+    box-sizing: inherit;
+    outline: solid 1px dodgerblue;
+    outline-offset: -1px;
+}
+
+body {
+    /* height: 100%; */
+    /* margin: 0; */
+    background-color: rgb(245, 250, 255);
+    background-image: url("../../assets/cell-body.svg");
+    font-family: Ubuntu, sans-serif;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+.general-wrapper {
+    /* height: 100%; */
+}
+
+.container {
+    max-width: 999px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.reset-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.reset-btn {
+    padding: 0;
+    font-family: inherit;
+    border: none;
+    background-color: transparent;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
